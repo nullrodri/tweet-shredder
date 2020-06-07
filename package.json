@@ -1,0 +1,29 @@
+{
+  "name": "tweet-shredder",
+  "version": "1.0.0",
+  "description": "Deletes a user's old tweets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Menecozzi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrimeh/tweet-shredder.git"
+  },
+  "keywords": [
+    "tweet",
+    "delete",
+    "bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/rodrimeh/tweet-shredder/issues"
+  },
+  "homepage": "https://github.com/rodrimeh/tweet-shredder#readme"
+}
