@@ -3,7 +3,7 @@ const Twitter = require('twitter-lite')
 const api_auth = require('../config')
 
 //Import tweets from file
-const tweets = require('../tweets')
+const tweets = require('../tweet')
 
 //Init Twitter client
 const client = new Twitter(api_auth)
