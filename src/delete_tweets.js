@@ -12,7 +12,7 @@ const client = new Twitter(api_auth)
 const now = Date.now()
 
 //Tweets older than this time period (expressed in milliseconds) will be deleted, set to a year by default
-const timePeriod = 365 * 24 * 60 * 60 * 1000
+const timePeriod = 365 * 24 * 60 * 60 * 1000 //A year in milliseconds
 
 //Returns true if an amount of time greater than the time period has passed since the tweet was created, and false otherwise
 function isOlderThan(tweet) {
